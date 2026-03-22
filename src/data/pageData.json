@@ -1,0 +1,53 @@
+{
+  "pages": [
+    {
+      "seo": {
+        "title": "Example Page",
+        "description": "Example description for SEO",
+        "keywords": "react, seo, example",
+        "canonical": "https://example.com/page/1",
+        "robots": "index,follow",
+        "author": "John Doe",
+
+        "ogTitle": "Example Page",
+        "ogDescription": "Example description",
+        "ogImage": "https://example.com/image.jpg",
+        "ogType": "website",
+        "ogUrl": "https://example.com/page/1",
+        "ogSiteName": "Example Site",
+        "ogLocale": "en_US",
+        "ogImageWidth": "1200",
+        "ogImageHeight": "630",
+
+        "twitterCard": "summary_large_image",
+        "twitterTitle": "Example Page",
+        "twitterDescription": "Example description",
+        "twitterImage": "https://example.com/image.jpg",
+        "twitterSite": "@example",
+        "twitterCreator": "@example",
+
+        "themeColor": "#ffffff",
+        "language": "en",
+
+        "structuredData": {
+          "@context": "https://schema.org",
+          "@type": "WebPage",
+          "name": "Example Page",
+          "description": "Example description",
+          "url": "https://example.com/page/1"
+        }
+      },
+      "slug": "/",
+      "title": "Home",
+      "sections": [
+        {
+          "id": "{60f05778-7813-48dc-ad55-b7feae8d9abf}",
+          "component": "example",
+          "type": "section",
+          "label": "example",
+          "fields": {}
+        }
+      ]
+    }
+  ]
+}
